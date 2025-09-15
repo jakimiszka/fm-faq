@@ -1,4 +1,3 @@
-const answers = document.querySelectorAll('.faq_answer');
 const questions = document.querySelectorAll('.faq_question');
 const faqSection = document.querySelector('.faq_section');
 
