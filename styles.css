@@ -65,7 +65,14 @@ body{
     display: flex;
     gap: var(--spacing-300);
     align-items: center;
-    margin: var(--spacing-500) 0 var(--spacing-400) 0;
+    margin: var(--spacing-400) 0 var(--spacing-300) 0;
+}
+
+.header h1{
+    color: var(--purple-950);
+    font-size: var(--font-size-1);
+    line-height: var(--line-height-1);
+    font-weight: var(--bold);
 }
 
 .faq_item{
@@ -97,6 +104,10 @@ body{
 
 .active{
     display: flex;
+}
+
+.bold{
+    font-weight: var(--bold);
 }
 
 .line{
